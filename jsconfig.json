@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "baseUrl": ".",
+        "paths": {
+            "@/backend/*": ["src/backend/*"],
+            "@/components/*": ["src/components/*"],
+            "@/config/*": ["src/config/*"],
+            "@/layout/*": ["src/layout/*"],
+            "@/lib/*": ["src/lib/*"],
+            "@/redux/*": ["src/redux/*"],
+            "@/store/*": ["src/store/*"],
+            "@/utils/*": ["src/utils/*"],
+            "@/styles/*": ["styles/*"],
+        }
+    }
+}
